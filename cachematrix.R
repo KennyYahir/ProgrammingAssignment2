@@ -31,7 +31,7 @@ cacheSolve <- function(A, ...) {
 
 	A$getInverse() -> inv
     if(!is.null(inv)) {
-
+    #If the inverse is already computed
         return (inv)
     }
     A$get() -> data
